@@ -151,7 +151,7 @@ const documentDateInput = document.getElementById("input7").value; // Get date i
 const deliveryDateInput = document.getElementById("input8").value;
 const searchBarInput = document.getElementById("search").value; // Get search bar input value
 
-  fetch("https://ls-allcustomerordersserver.onrender.com/swagger/AllCustomerActiveOrders")
+  fetch("https://customerorderswempeserver.onrender.com/swagger/AllCustomerActiveOrders")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
@@ -323,7 +323,7 @@ document.getElementById("input8").value = "";
 
 clearAndRefresh();
 
-  fetch("https://ls-allcustomerordersserver.onrender.com/swagger/AllCustomerActiveOrders")
+  fetch("https://customerorderswempeserver.onrender.com/swagger/AllCustomerActiveOrders")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
@@ -451,7 +451,7 @@ document.getElementById("searchButton").addEventListener("click", searchOnClick)
   }
 
   function showEditablePopup(orderIndex) {
-     fetch("https://ls-allcustomerordersserver.onrender.com/swagger/AllCustomerActiveOrders")
+     fetch("https://customerorderswempeserver.onrender.com/swagger/AllCustomerActiveOrders")
       .then((response) => response.json())
       .then((data) => {
         const order = data[orderIndex];
@@ -636,7 +636,7 @@ document.getElementById("searchButton").addEventListener("click", searchOnClick)
   }
 
   function showPopup(orderIndex, text) {
-   fetch("https://ls-allcustomerordersserver.onrender.com/swagger/AllCustomerActiveOrders")
+   fetch("https://customerorderswempeserver.onrender.com/swagger/AllCustomerActiveOrders")
       .then((response) => response.json())
       .then((data) => {
         const order = data[orderIndex];
