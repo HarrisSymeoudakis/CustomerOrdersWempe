@@ -395,7 +395,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
-    height: 80px;
+    height: 50px;
 }
 
 table {
@@ -11474,7 +11474,7 @@ border: 3px solid #971b2f;
 
 .s007 {
 position: relative;
-margin-top: 70px;
+margin-top: 30px;
 min-height: 500px
 display: -ms-flexbox;
 display: flex;
