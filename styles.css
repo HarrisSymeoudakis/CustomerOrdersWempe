@@ -17,6 +17,14 @@
     background-color: #3333;
     border-color: #3333;
 }
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #3333;
+    border-color: #3333;
+    
+}
+
 body {
     
      background-image: url("background.jpg");
