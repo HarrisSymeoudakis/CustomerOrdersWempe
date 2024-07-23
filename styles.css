@@ -1850,6 +1850,9 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
+.table thead th {
+    vertical-align: top !important;
+}
 .table {
   --bs-table-color: var(--bs-body-color);
   --bs-table-bg: transparent;
