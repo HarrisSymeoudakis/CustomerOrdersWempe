@@ -117,7 +117,7 @@ async function getToken() {
         var tokenRequest = new XMLHttpRequest();
         var tokenUrl = 'http://localhost:3000/et/as/connect/token'; // Proxy server URL
         // var tokenUrl = 'https://proxyserver-z74x.onrender.com/et/as/connect/token'; // Proxy server URL
-        var tokenData = 'client_id=CegidRetailResourceFlowClient&username=AI@90478305_003_TEST&password=1234&grant_type=password&scope=RetailBackendApi offline_access'; // Construct x-www-form-urlencoded body
+        var tokenData = 'client_id=CegidRetailResourceFlowClient&username=Harris@90571062_002_TEST&password=Cegid2&grant_type=password&scope=RetailBackendApi offline_access'; // Construct x-www-form-urlencoded body
 
         tokenRequest.open('POST', tokenUrl, true);
         tokenRequest.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
