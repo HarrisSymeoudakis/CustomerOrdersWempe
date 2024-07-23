@@ -221,18 +221,17 @@ const searchBarInput = document.getElementById("search").value; // Get search ba
         const header = order.header;
         
         return (
-
-		header.customer.id.toLowerCase().includes(searchTerm) ||
-          header.customer.firstName.toLowerCase().includes(searchTerm) ||
-          header.customer.lastName.toLowerCase().includes(searchTerm) ||
-          header.storeId.toLowerCase().includes(searchTerm) ||
-		header.customer.emails[0].value.toLowerCase().includes(searchTerm)  ||
-          header.documentKey.number.toString().includes(searchTerm) ||
-          new Date(header.documentDate).toISOString().split('T')[0].includes(searchTerm)||
-new Date(header.deliveryDate).toISOString().split('T')[0].includes(searchTerm)
-		
-          
-        );
+    (header.customer?.id?.toLowerCase().includes(searchTerm) ?? false) ||
+    (header.customer?.firstName?.toLowerCase().includes(searchTerm) ?? false) ||
+    (header.customer?.lastName?.toLowerCase().includes(searchTerm) ?? false) ||
+    (header.storeId?.toLowerCase().includes(searchTerm) ?? false) ||
+    (header.customer?.emails?.[0]?.value?.toLowerCase().includes(searchTerm) ?? false) ||
+    (header.documentKey?.number?.toString().includes(searchTerm) ?? false) ||
+    (header.documentDate &&
+      new Date(header.documentDate).toISOString().split("T")[0].includes(searchTerm)) ||
+    (header.deliveryDate &&
+      new Date(header.deliveryDate).toISOString().split("T")[0].includes(searchTerm))
+  );
       });
 
 let finalFilteredOrders;
