@@ -1877,7 +1877,7 @@ progress {
   vertical-align: inherit;
 }
 .table > thead {
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 .table-group-divider {
