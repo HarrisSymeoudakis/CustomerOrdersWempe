@@ -14,6 +14,7 @@
 
 
 body {
+     position:fixed;
      background-image: url("background.jpg");
     background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10966,9 +10967,6 @@ html {
   scroll-padding-top: 4.5rem;
 }
 
-body {
-  position: relative;
-}
 
 p {
   line-height: 1.75;
