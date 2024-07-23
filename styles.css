@@ -78,7 +78,10 @@ right: 0;
     justify-content: space-between;
     align-items: center;
   }
-  
+
+body.modal-open {
+    padding-right: 0px !important; /* Override the padding */
+}
   .modal-body {
     overflow-y: auto; /* Add scrolling if the content is too long */
   }
