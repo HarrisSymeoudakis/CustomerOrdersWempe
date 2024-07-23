@@ -12,6 +12,29 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+
+body {
+     background-image: url("background.jpg");
+    background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover; 
+    margin-top: 20px;
+}
+
+.fa-search-plus{
+    background:#971b2f   
+}
+
+.fa-pencil{
+    background:grey   
+}
+
+.fa-trash-o{
+    background:black   
+}
+
+
 .right-corner{
 position: absolute;
 bottom: 0;
