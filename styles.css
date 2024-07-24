@@ -12,6 +12,12 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+.btn-default:hover{
+   color: #fff;
+    background-color: 971b2f !important;
+    border-color: #971b2f !important;
+}
+
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #3333;
