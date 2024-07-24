@@ -308,6 +308,7 @@ let finalFilteredOrders;
 
 function clearAndRefresh() {
     // Clear input fields
+	document.getElementById("search").value = "";
     document.getElementById("input1").value = "";
     document.getElementById("input2").value = "";
     document.getElementById("input3").value = "";
