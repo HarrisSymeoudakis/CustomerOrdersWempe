@@ -39,6 +39,11 @@
     box-shadow: 0 0 0 .2rem rgba(151, 27, 47, .5);
 }
 
+.btn-success:hover {
+    color: #fff;
+    background-color: cadetblue !important;
+    border-color: #971b2f !important;
+}
 
 
 body {
