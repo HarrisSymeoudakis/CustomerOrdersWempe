@@ -26,6 +26,21 @@
     
 }
 
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #3333;
+    border-color: #3333;
+}
+
+.btn-success.focus, .btn-success:focus {
+    color: #fff;
+    background-color: #3333;
+    border-color: #3333;
+    box-shadow: 0 0 0 .2rem rgba(151, 27, 47, .5);
+}
+
+
+
 body {
     
      background-image: url("background.jpg");
