@@ -63,6 +63,17 @@ body {
     background:black   
 }
 
+.fa-search-plus:hover{
+    background:grey 
+}
+
+.fa-pencil:hover{
+    background:black     
+}
+
+.fa-trash-o:hover{
+    background:  #971b2f
+}
 
 .right-corner{
 position: absolute;
